@@ -1,0 +1,140 @@
+.nav-container {
+    background-color: rgba(0, 0, 0, 1);
+    box-shadow: 0 -8px 26px rgba(179, 54, 255, 1);
+    display: flex;
+    gap: 40px 100px;
+    overflow: hidden;
+    text-align: center;
+    flex-wrap: wrap;
+    padding: 26px 69px;
+    font: 400 30px Bebas Neue, sans-serif;
+  }
+body{
+ 
+    background-color: darkgrey;
+      
+
+}
+  .brand-text {
+    color: rgba(179, 54, 255, 1);
+    margin: auto 0;
+    font-size: small;
+  }
+
+  .nav-menu {
+    display: flex;
+    align-items: center;
+    gap: 40px 73px;
+    color: rgba(255, 255, 255, 1);
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: medium;
+margin-left: 470px;
+  }
+
+  .nav-item {
+    align-self: stretch;
+    white-space: nowrap;
+    margin: auto 0;
+    padding: 5px 10px;
+  }
+
+  .nav-item-home {
+    width: 67px;
+  }
+
+  .nav-item-about {
+    width: 40px;
+  }
+
+  .nav-item-projects {
+    width: 98px;
+  }
+
+  .nav-item-contact {
+    width: 131px;
+  }
+
+  @media (max-width: 991px) {
+    .nav-container {
+      padding: 0 20px;
+    }
+  }
+    .nav-menu {
+      max-width: 100%;
+    }
+
+    .nav-item {
+      white-space: initial;
+    }
+    .intro-container {
+        display: flex;
+        flex-direction: column;
+        color: #fff;
+        font-weight: 200;
+      }
+    
+      .intro-text {
+        text-align: center;
+        align-self: start;
+        font: 24px , sans-serif;
+        padding-left: 100px;
+      }
+    
+      .tagline {
+        text-align: right;
+        align-self: end;
+        text-justify: auto;
+        z-index: 10;
+        margin: 48px 0 0;
+        font: 400px 20px "Beau Rivage", sans-serif;
+        padding: -4px 2px 0;
+      }
+    
+      @media (max-width: 991px) {
+        .tagline {
+          margin-top:left 40px;
+        }
+    }
+    .landscaper-title {
+        color: #fff;
+        text-align: center;
+        max-width: 100px;
+        font: 0 64px Tangerine, sans-serif;
+        padding-left: 250px;
+      }
+      .pic1{
+    object-fit: contain;
+    object-position: center;
+    width: 100%;
+    max-width: 424px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+   
+  }
+  .Coder-title {
+    display: flex;
+    width: 100%;
+    color: #fff;
+    white-space: nowrap;
+    text-align:left;
+    font: 400 32px 'Black Ops One', sans-serif;
+    margin-left: 100px;
+  }
+  .expertise-description {
+    color: rgb(12, 12, 12);
+    text-align: center;
+    max-width: 346px;
+    font: 400 20px , sans-serif;
+    padding: 0 200px 30px 100px;
+    
+  }
+  
+  .custom-font {
+    font-family: Black Ops One, sans-serif;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
