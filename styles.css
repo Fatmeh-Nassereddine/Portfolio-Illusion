@@ -1,0 +1,504 @@
+.nav-container {
+    background-color: rgba(0, 0, 0, 1);
+    box-shadow: 0 -8px 26px rgba(179, 54, 255, 1);
+    display: flex;
+    gap: 40px 100px;
+    overflow: hidden;
+    text-align: center;
+    flex-wrap: wrap;
+    padding: 26px;
+    font: 400 30px Bebas Neue, sans-serif;
+  }
+body{
+ 
+    background:linear-gradient(to bottom, #000000, #888787) 
+    
+    
+
+}
+  .brand-text {
+    color: rgba(179, 54, 255, 1);
+    margin: auto 0;
+    font-size: small;
+  }
+
+  .nav-menu {
+    display: flex;
+    align-items: center;
+    gap: 40px 73px;
+    color: rgba(255, 255, 255, 1);
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: medium;
+margin-left: 470px;
+  }
+
+  .nav-item {
+    align-self: stretch;
+    white-space: nowrap;
+    margin: auto 0;
+    padding: 5px 10px;
+  }
+
+  .nav-item-home {
+    width: 67px;
+  }
+
+  .nav-item-about {
+    width: 40px;
+  }
+
+  .nav-item-projects {
+    width: 98px;
+  }
+
+  .nav-item-contact {
+    width: 131px;
+  }
+
+  @media (max-width: 991px) {
+    .nav-container {
+      padding: 0 20px;
+    }
+  }
+    .nav-menu {
+      max-width: 100%;
+    }
+
+    .nav-item {
+      white-space: initial;
+    }
+    .logo{
+      margin-left:1080px;
+      width: fit-content;
+    }
+    .title-text {
+      margin-left: 500px;
+      font-size: xxx-large;
+      color: white;
+      font-style: italic;
+    }
+
+  
+
+    /*Hero section*/
+    section.Hero{
+    display: flex;
+    justify-content: space-around;
+    margin: 80px;
+    width:1100px
+    }
+    .Hero-name1 h2 {
+        display: flex;
+        justify-content: center;
+        font-style: italic;
+        font-size: x-large;
+        color:rgb(253, 253, 253)
+    }
+    .Hero-name1 p{
+        display: flex;
+        justify-content: center;
+        margin-left:30px;
+        text-justify: auto;
+        font-style: italic;
+        font-size: large;
+        color:rgb(253, 253, 253)
+        
+    }
+    .My-name{
+        margin-top: 20px;
+        text-align: center;
+        font-style: italic;
+        font-size: xx-large;
+        padding-left: 35px;
+        color:rgb(253, 253, 253)
+
+    }
+.hero-pic{
+    object-fit: cover;
+    object-position: center center;
+    padding-left: 50px;
+    padding-right:50px;
+}
+.name ::first-letter{
+    font-size: 50;
+    font-weight: 300;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+h1::first-letter{
+    font-size: 50;
+    font-style: italic;
+    font-stretch: expanded;
+    }
+.Hero-name2 h2 {
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+    color:rgb(253, 253, 253)
+    
+}
+.Hero-name2 p{
+    display: flex;
+    justify-content: center;
+    margin-right:50px;
+    text-justify: auto;
+    font-size: large;
+    font-style: italic;
+    color:rgb(253, 253, 253)
+}
+.buttons{
+  display: flex;
+  justify-content: flex-end;
+  box-sizing: border-box;
+}
+.buttons{
+  cursor: pointer;
+  outline:none;
+  transition: .3s;
+  margin: top -100px;
+  padding-left:1050px;
+  gap: 17px;
+  background-color: #000000;
+  border:2px solid rgb(2, 48, 5)
+}
+.buttons:focus{
+  color:darkgreen;
+}
+.resum{
+  font-style: italic;
+  font-size: medium;
+}
+.contact{
+  font-style: italic;
+}
+/*end of hero section*/
+
+/*About section*/
+.quote{
+  display: flex;
+  justify-content: center;
+  font-style: italic;
+  padding-bottom: 20px;
+  color: rgb(255, 255, 255);
+}
+
+.container{
+  display: flex;
+  justify-content: flex-start;
+  margin:20px;
+  padding:10px;
+
+}
+.card{
+  background: #7c7a7a;
+  width: 300px;
+  height:700px;
+  margin:40px
+}
+.card-image{
+  background-color: #000000;
+  height: 470px;
+  margin-bottom: 10px;
+  background-size: cover;
+}
+.shadow-1{
+  background-image: url("Pics/pic2.jpg.png");
+}
+
+.card-image1{
+  background-color: #000000;
+  height: 470px;
+  margin-bottom: 10px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position:center;
+}
+.skil{
+  text-align: center;
+  font-style: italic;
+  text-decoration: underline;
+  color:aliceblue
+}
+.Certi{
+  text-align: center;
+  text-decoration: underline;
+  font-style:italic
+  
+  
+}
+.Certification{
+  background-image: url("Pics/pic4.png");
+}
+
+.skill-name {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 5px;
+  margin-top: 1px;
+  font-style: italic;
+  font-size: larger;
+  color:rgb(252, 252, 252)
+  
+}
+
+.numb{
+  color: #044706;
+}
+
+.hob{
+  text-align: center;
+  font-style: italic;
+  text-decoration: underline;
+  color:rgb(7, 7, 7)
+}
+.hobby-name{
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 5px;
+  margin-top: 1px;
+  font-style: italic;
+  font-size: larger;
+  color:rgb(12, 12, 12)
+}
+.quali{
+  text-align: center;
+  font-style: italic;
+  text-decoration: underline;
+  background-color: #7c7a7a;
+padding: 30px;
+margin-left: 40px;
+margin-right: 40px;
+}
+.qualification{
+  text-align: center;
+  text-decoration: underline;
+  color: rgb(255, 255, 255);
+  font-style: italic;
+}
+/*end of about section*/
+
+/* project section*/
+.Pro{
+  display: flex;
+  justify-content: center;
+  font-style: italic;
+  padding-bottom: 20px;
+  color: rgb(255, 255, 255);
+  margin-left:  850px;
+  
+}
+.image-container {
+  display: flex;
+  justify-content: flex-start; 
+  margin:80px;
+  gap: 110px; 
+}
+
+.image-item {
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+}
+
+img {
+  width: 250px;
+  height: auto;
+}
+
+.p1{
+  text-align: center;
+  background-color: #575656;
+  width: 250px;
+  height: 100px;
+  padding:10px;
+  border: 5px solid gray;
+}
+
+.p2{
+  text-align: center;
+  background-color: #575656;
+  width: 250px;
+  height: 100px;
+  padding:10px;
+  border: 5px solid gray;
+}
+
+.p3{
+  text-align: center;
+  background-color: #575656;
+  width: 250px;
+  height: 150px;
+  padding:10px;
+  border: 5px solid gray;
+}
+/*End of project section*/
+
+/* contact us*/
+
+.contact-wrapper {
+  border-radius: 0;
+  display: flex;
+  max-width: 616px;
+  flex-direction: column;
+}
+
+.contact-box {
+  background: #000;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+  display: flex;
+  justify-content: center;
+  min-height: 300px;
+  width: 100%;
+  margin-left:300px;
+  margin-bottom: 30px;
+
+}
+.name-input-container {
+  display: flex;
+  max-width: 166px;
+  flex-direction: column;
+  color: #fff;
+  text-align: center;
+  font: 400 15px 'Bebas Neue', sans-serif;
+}
+
+.name-label {
+  align-self: start;
+  padding-top: 60px;
+
+  
+
+}
+
+.name-underline {
+  margin: 29px 0 0;
+  width: 100%;
+  height: 1px;
+  border: 1px solid #fff;
+}
+.name-label {
+  align-self: start;
+  padding-top: 90px;
+  padding-right: 20px;
+}
+.name-underline {
+  min-height: 1px;
+  margin: 29px 0 0;
+  width: 80%;
+  border: 1px solid #fff;
+}
+.email-label {
+  display: flex;
+  max-width: 167px;
+  flex-direction: column;
+  color: #fff;
+  text-align: center;
+  font: 400 15px Bebas Neue, sans-serif;
+}
+.email-text {
+  align-self: flex-end;
+  margin-right: 75px;
+  margin-left: 30px;
+  padding-top: 90px;
+
+}
+.email-underline {
+  margin: 29px 0 0;
+  width: 200;
+  height: 1px;
+  border: 1px solid #fff;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+.message-container {
+  border-radius: 0;
+  display: flex;
+  max-width: 167px;
+  flex-direction: column;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font: 400 15px 'Bebas Neue', sans-serif;
+}
+.message-label {
+  align-self: flex-start;
+  padding-top: 60px;
+}
+.message-box {
+  border-radius: 10px 0 0 0;
+  background-color: rgb(217, 217, 217);
+  display: flex;
+  margin-top: 14px;
+  width: 100%;
+  height: 61px;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+.action-button {
+  align-self: stretch;
+  border-radius: 30px;
+  gap: 10px;
+  overflow: hidden;
+  color: rgb(7, 7, 7);
+  white-space: nowrap;
+  text-align: center;
+  padding: 5px;
+  margin-left:-100px;
+  font: 400 15px Bebas Neue, sans-serif;
+  border: 1px solid rgba(255, 255, 255, 1);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.action-button:hover,
+.action-button:focus {
+  background-color: rgba(255, 255, 255, 0.1);
+  outline: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+.touch{
+  text-align:center;
+}
+.social-icons{
+  display: flex;
+  justify-content:center;
+  padding-left: 1300px ;
+  margin-top:20px;
+  margin-left: -200px;
+  max-width: 10px;
+
+}
+
+.foot{
+  color:white;
+  text-align: center;
+  background-color: #000;
+  box-shadow: 0 -8px 1px rgba(179, 54, 255, 1);
+}
